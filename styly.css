@@ -1,0 +1,176 @@
+/* CSS Document */
+body{     
+    /* venkovní mezera */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;     /* vnitøní mezera */
+  width: 1100px;   /* šíøka */ 
+  background-image: url('picture/pozadi1.jpg')
+          }
+.horni{
+  margin: 0px;      /* venkovní mezera */
+  padding: 0px;  /* vnitøní mezera */
+  width: 1100px;   /* šíøka */ 
+  height: 250px;   /* výška */
+  float: left;    /* plovoucí vlastnost */
+  
+ /* background-image: no-repeat; */   
+    }    
+
+.logo{
+  width: 180;
+  height: 250;
+  float: left;
+  text-align: center;  
+  background-image: url('picture/jalubi_logo2.jpg'); 
+     }
+.logo2{ 
+    width: 180;
+  height: 250;
+  float: right;
+  background-image: url('picture/logo2.jpg');    
+      }
+.horobrazek{
+  width: 740px;
+  height: 250px;
+  float: left;
+  background-image: url('picture/hlavicka_pro_web.jpg');  /* obrázek na pozadí */             
+               }
+
+
+.menu{
+  margin: 0px;      /* venkovní mezera */
+  padding: 15px;  /* vnitøní mezera */
+  width: 150px;   /* šíøka */ 
+  height: 400px;  /* výška */
+  float: left;    /* plovoucí vlastnost */
+  background-color: #7E7700;  /* barva pozadí */
+  font-family: Arial;   
+    } 
+ .pravysl{
+  margin: 0px;      /* venkovní mezera */
+  padding: 15px;  /* vnitøní mezera */
+  width: 150px;   /* šíøka */ 
+  height: 400px;  /* výška */
+  float: right;    /* plovoucí vlastnost */
+  background-color: yellow;  /* barva pozadí */
+  font-family: Arial;  
+   }
+    .odkazy {
+         width: 150px;   /* šíøka */ 
+         margin-bottom: 30px;
+        display: block; 
+            }
+    
+    .odkazy a{
+         padding:0 0 0 0;    
+             }
+    .odkazy a:hover{
+        width: 150px;   /* šíøka */ 
+        display: block;
+        padding:0 0 0 0;
+        border-bottom: 3px solid #7A90AF;
+        border-right: 3px solid #7A90AF;         
+                    }     
+                    
+                    
+   
+    /* hypertextový odkaz */
+    .menu a{
+        color: black;
+        
+        
+                   
+           }
+    /* hypertextový odkaz po najetí myši */
+    .menu li a:hover{
+         text-decoration: none;         
+          display: block;
+          width: 177px;
+          height: 25px;
+          background-color: #9FCA00;
+          padding: 10px 0 0 0;       
+           }
+     .menu li{      
+          padding: 0 0 0 0;   /* zkouška posunout podtrøení menu */
+          margin: 0 0 0 0;
+         
+                       }  
+          
+    .menu li a{
+          text-decoration: none;         
+          display: block;
+          width: 177px;
+          height: 25px;
+          padding: 10px 0 0 0;   /* zkouška posunout podtrøení menu */
+          margin: 0 0 0 -12px;
+          background-color: #7E7700;
+          border-bottom: 2px solid yellow;
+                       }
+     .menu ul{
+          list-style-type: none;   
+          margin: 0;    /* zkouška posunout podtržení menu */
+          padding: 0;
+             }
+              .menu ul ul {
+	               display: none;
+                            }
+
+	           .menu li:hover ul {
+	               	display: block;
+	                
+                             }
+      .menu li li a{
+          list-style-type: none;         
+          display: block;
+          width: 120px;
+          height: 25px;
+          background-color: #7E7700;
+          margin: 0 0 0 15px;
+          border-bottom: none;
+          list-style-image: url("picture/pic_menu.jpg")
+                    }
+       .menu li li a:hover{
+          display: block;
+          width: 120px;
+          height: 25px;
+          background-color: #9FCA00;
+                    }           
+                    
+      
+             
+                                        
+.obsah{
+  margin: 0;      /* venkovní mezera */
+  padding: 15px;  /* vnitøní mezera */
+  width: 710px;    
+  float: left;    /* plovoucí vlastnost */
+  font-family: MS Sans Serif, Geneva;   
+      }  
+.profil{
+  padding: 15px;  /* vnitøní mezera */
+  width: 710px;   /* šíøka */ 
+  height: 200px;  /* výška */
+  float: left;
+  margin: 0 0 20 0;
+  display: block;      
+        }
+        
+  .profil img {
+     margin: 0 10 0 0px;
+     float: left;        
+              }        
+.stazeni a{
+    color: red;
+          }
+.stazeni a:hover{
+  text-decoration: none;
+  color: blue;
+                }     
+   
+h1 {
+  color:balck; 
+}  
+
+ /* border-top-left-radius,
+border-top-right-radius, */       
